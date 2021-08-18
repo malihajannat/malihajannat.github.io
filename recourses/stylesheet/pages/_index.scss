@@ -1,15 +1,15 @@
-.page-1{
+.page-1 {
   width: 100%;
   height: 100vh;
   display: block;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   position: relative;
   z-index: 1;
   overflow: hidden;
-  .overlay{
+  
+  .overlay {
     height: 100vh;
     width: 100%;
     opacity: 0.6;
@@ -18,63 +18,67 @@
     background-color: #000000;
     left: 0;
   }
-  .top-style{
+  
+  .top-style {
     left: -55px;
     position: absolute;
     height: 300px;
     width: 400px;
     color: #e056fd;
     top: -95px;
-    @media only screen and (max-width:824px){
+    @media only screen and (max-width: 824px) {
       height: 240px;
-    width: 240px;
-
-
+      width: 240px;
+      
     }
   }
-   .logo{
-     font-size: 30px!important;
-     letter-spacing: 3px;
-     font-family: 'Fredoka One', cursive!important;
-     padding-left: 80px;
-     @media only screen and (max-width: 824px) {
-      font-size: 25px;
-       padding: 0;
-
-     }
-
-   }
-   .navbar{
-     padding: 0!important;
-     .h1{
-       line-height: 0!important;
-     }
-     h1{
-       line-height: 0!important;
-     }
-     a{
-       padding: 25px 40px!important;
-       font-size: 17px;
-       font-family: 'Roboto', sans-serif!important;
-       @media only screen and (max-width: 1024px){
-         padding: 5px 10px!important;
-         font-size: 14px;
-       }
-       @media only screen and (max-width: 824px){
-         padding: 5px 10px!important;
-         font-size: 14px;
-       }
-       &:hover{
-         background-color:#e056fd ;
-         color:white!important;
-         font-weight: bold;
-
-       }
-     }
-   }
+}
+  .logo {
+    font-size: 30px !important;
+    letter-spacing: 3px;
+    font-family: 'Fredoka One', cursive !important;
+    padding-left: 80px;
+    @media only screen and (max-width: 824px) {
+      padding-left: 10px;
+    }
+    @media only screen and (max-width: 524px) {
+      padding-left: 5px;
+    }
+    
+  }
+  
+  .navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 !important;
+    z-index: 99;
+    
+    .h1 {
+      line-height: 0 !important;
+    }
+    
+    h1 {
+      line-height: 0 !important;
+    }
+    
+    a {
+      padding: 25px 40px !important;
+      font-size: 17px;
+      font-family: 'Roboto', sans-serif !important;
+  
+      &:hover {
+        background-color: #e056fd;
+        color: white !important;
+        font-weight: bold;
+      }
+    }
+    
+}
   .welcome{
-    width: 55%;
-    margin:150px auto;
+    width: 60%;
+    margin:200px auto;
     text-align: center;
     color: white;
     position: relative;
@@ -85,14 +89,17 @@
     font-family: 'Varela Round', sans-serif;
     padding-bottom:20px;
     letter-spacing: 1px;
+    @media only screen and (max-width:574px) {
+      font-size: 20px!important;
+    }
   }
   .head{
     font-family: 'Anton', sans-serif;
     font-size: 60px;
     letter-spacing:5px;
-    padding-bottom: 20px;
+    padding-bottom: 20px!important;
     @media only screen and (max-width: 824px) {
-      font-size: 30px;
+      font-size: 30px!important;
     }
   }
   .bottom-style{
@@ -131,4 +138,3 @@
       }
     }
   }
-}
