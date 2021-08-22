@@ -1,0 +1,19 @@
+{
+  "name": "malihajannat.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch recourses/stylesheet/style.scss:asset/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malihajannat/malihajannat.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malihajannat/malihajannat.github.io/issues"
+  },
+  "homepage": "https://github.com/malihajannat/malihajannat.github.io#readme"
+}
